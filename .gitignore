@@ -1,0 +1,7 @@
+# ignore smart contract build files
+*.wasm
+*.abi 
+
+
+# editor configs
+.idea

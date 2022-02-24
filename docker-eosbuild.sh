@@ -1,0 +1,1 @@
+docker run --rm --name eusubuntu_build --volume "$PWD:/project" -w /project eosubuntu /bin/bash -c "eosio-cpp -abigen -I include -R resource -contract waxstarter -o waxstarter.wasm src/waxstarter.cpp"
